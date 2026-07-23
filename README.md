@@ -20,8 +20,6 @@ A lightweight, portable image viewer for Windows written in C using only standar
 gcc main.c -o PhotoViewer.exe -lgdi32 -lcomdlg32 -luser32 -Wl,-subsystem,windows
 ```
 
-Requires `stb_image.h` from [nothings/stb](https://github.com/nothings/stb).
-
 ## Usage
 
 - Run `PhotoViewer.exe` and click **Open Image**, or
